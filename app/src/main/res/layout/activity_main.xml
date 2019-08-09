@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DATA DIRI"
+        android:textSize="18pt"
+        android:gravity="center"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10pt"
+        android:hint="masukan nama"
+        android:id="@+id/edt_nama"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10pt"
+        android:hint="masukan alamat"
+        android:id="@+id/edt_alamat"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10pt"
+        android:hint="masukan no hp"
+        android:id="@+id/edt_nohp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10pt"
+        android:hint="masukan pekerjaan"
+        android:id="@+id/edt_pekerjaan" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10pt"
+        android:hint="masukan lama kerja"
+        android:id="@+id/edt_lamakerja"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10pt"
+        android:hint="masukan asal sekolah"
+        android:id="@+id/edt_asalsekolah"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10pt"
+        android:hint="masukan kompetensi"
+        android:id="@+id/edt_kompetensi"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:text="INPUT"
+        android:textSize="12pt"
+        android:id="@+id/btn_input"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
